@@ -29,7 +29,8 @@ local Lotto432 =
     ["HTTP_HWID"] = HWID
       },
     }
-)
+).Body
+
 if Lotto432 == "Owsp10dmO!" and Lotto432 ~= "Invalid HWID!" and Lotto432 ~= "Invalid Key!" and Lotto432 ~= "OwmP1tr0khr!" then
     rconsoleprint("skibidi")
 elseif Lotto432 == "Invalid HWID!" then
