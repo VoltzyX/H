@@ -18,8 +18,7 @@ for key, value in pairs(decoded.headers) do
     end
 end
 
-do 
-Lotto432 =
+local Lotto432 =
     requestf(
     {
     Url = "https://lwmq9j2lfq.000webhostapp.com/PQMF0j3042n.php",
@@ -30,9 +29,7 @@ Lotto432 =
     ["HTTP_HWID"] = HWID
       },
     }
-);
-end
-
+)
 if Lotto432 == "Owsp10dmO!" and Lotto432 ~= "Invalid HWID!" and Lotto432 ~= "Invalid Key!" and Lotto432 ~= "OwmP1tr0khr!" then
     rconsoleprint("skibidi")
 elseif Lotto432 == "Invalid HWID!" then
