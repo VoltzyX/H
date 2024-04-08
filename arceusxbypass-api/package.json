@@ -1,0 +1,12 @@
+{
+  "name": "arceusxbypass-api",
+  "version": "1.0.0",
+  "description": "API for ArceusxBypass",
+  "main": "api/arceusxbypass.js",
+  "scripts": {
+    "start": "node api/arceusxbypass.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
